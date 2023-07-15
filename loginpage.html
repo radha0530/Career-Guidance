@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrier Guidence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="icon" href="favicon (1).ico" />
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="practice.html">📚CG</a>
+      </div>
+      <ul>
+        <li><a href="homecareer1.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        
+        <li><a href="feedback.html">Feedback</a></li>
+        
+      </ul>
+    </div>
+  </nav><br><br>
+<h2>Registration / Login Form</h2><br><br>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="r.php" method="post">
+			<h3>Register</h3>
+			<input type="text"  name="Name" placeholder="Name" class="form-control" required> 
+			<input type="email"  name="Email" placeholder="Email" class="form-control" required> 
+			<input type="password" name="Password" placeholder="Password"  class="form-control" required> 
+			<button>Register</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="login.php" method="post">
+			<h3>Login</h3>
+			<input type="text"  name="Name" placeholder="Name" class="form-control" required> 
+			<input type="email"  name="Email" placeholder="Email" class="form-control" required> 
+			<input type="password" name="Password" placeholder="Password"  class="form-control" required> 
+			<a href="#">Forgot your password?</a>
+			<button>Login</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h3>Welcome!</h3>
+				<p>Buld up your career with CG guidance</p>
+				<button class="ghost" id="signIn">LogIn</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello</h1>
+				<p>Enter your personal details here</p>
+				<button class="ghost" id="signUp">Register</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src ="1.js"></script>
+</body>
+</html>
